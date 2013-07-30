@@ -1,0 +1,146 @@
+div#navbar{
+	height:50px;
+	width:662px;
+	position:relative;
+	float:left;
+	top:75px;
+	margin-left:50px;
+	border-top-left-radius: 10px 10px;
+	border-bottom-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+}
+
+div.logo{
+	position:relative;
+	float:left;
+	height:145px;
+	width:74px;
+	margin-left:25px;
+}
+div.telasluzmaria{
+	position:relative;
+	float:left;
+	height:145px;
+	width:156px;
+	margin-left:5px;
+}
+
+.btnSpan{
+	display:block;
+	margin-top:15px;
+}
+
+div#navbar a.btns:link, div#navbar a.btns:visited{
+	background: #656566; /* Old browsers */
+	background: -moz-linear-gradient(top,  #656566 0%, #363839 50%, #1e2021 51%, #1f2122 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#656566), color-stop(50%,#363839), color-stop(51%,#1e2021), color-stop(100%,#1f2122)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #656566 0%,#363839 50%,#1e2021 51%,#1f2122 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #656566 0%,#363839 50%,#1e2021 51%,#1f2122 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #656566 0%,#363839 50%,#1e2021 51%,#1f2122 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #656566 0%,#363839 50%,#1e2021 51%,#1f2122 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656566', endColorstr='#1f2122',GradientType=0 ); /* IE6-9 */
+	color: #FFD11A;
+	overflow: hidden; 
+	height:50px; 
+	text-decoration:none;
+}
+
+div#navbar a.btns:hover, div#navbar a.btns:active{
+	background: #bbbdbf; /* Old browsers */
+	background: -moz-linear-gradient(top,  #bbbdbf 0%, #a3a6a8 50%, #8b8f91 51%, #94989a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbbdbf), color-stop(50%,#a3a6a8), color-stop(51%,#8b8f91), color-stop(100%,#94989a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #bbbdbf 0%,#a3a6a8 50%,#8b8f91 51%,#94989a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #bbbdbf 0%,#a3a6a8 50%,#8b8f91 51%,#94989a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #bbbdbf 0%,#a3a6a8 50%,#8b8f91 51%,#94989a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #bbbdbf 0%,#a3a6a8 50%,#8b8f91 51%,#94989a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbdbf', endColorstr='#94989a',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+}
+
+.separation{
+	width:1px; height:50px;
+	background: #ffffff;
+}
+
+/* Make Reservation Button */
+a.btn-quienes:link {
+	width:190px;
+	border-top-left-radius: 10px 10px;
+	border-bottom-left-radius: 10px 10px;
+}
+
+a.btn-galeria {
+	width:280px;
+}
+
+a.btn-contacto{
+	width:190px;
+	border-top-right-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+}
+
+/* Drop Down */
+#nav li {
+	float:left; 
+	display:block;  
+	position:relative; 
+	text-transform: uppercase;
+	font-weight:normal;
+	font-size:12pt;
+	text-align:center;
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	z-index:30;
+}
+
+/* this is the parent menu */
+#nav li a {display:block;}
+#nav li a:hover {color: #ffffff;}
+
+/* you can make a different style for default selected value */
+#nav a.selected {color:#f00;}
+
+/* submenu, it's hidden by default */
+#nav ul {
+	position:absolute; top:55px; left:0px; margin:0; padding:0; list-style:none; display:none;	
+	border-top-left-radius: 10px 10px;
+	border-bottom-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+}
+
+#nav ul li {float:left; text-align:center; padding:0; background:#000; filter:alpha(opacity=95); -moz-opacity: .95; -khtml-opacity: .95; opacity: .95;}
+#nav ul.subGaleria li {width:280px;}
+#nav ul.subQuienes li , #nav ul.subContacto li {width:190px;}
+
+#nav ul li:first-child {	
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+}
+#nav ul li:last-child {	
+	border-bottom-right-radius: 10px 10px;
+	border-bottom-left-radius: 10px 10px;
+}
+
+#nav ul li {height:30px; 
+	display: table-cell;  
+	vertical-align: middle;
+}
+/* display block will make the link fill the whole area of LI */
+#nav ul li a {display:block; height:30px;color: #FFD11A; text-decoration:none; padding-top:6px; text-align:right; padding-right:25px;}
+
+#nav ul li:hover {
+	background: #bbbdbf; /* Old browsers */
+	background: -moz-linear-gradient(top,  #bbbdbf 0%, #a3a6a8 50%, #8b8f91 51%, #94989a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bbbdbf), color-stop(50%,#a3a6a8), color-stop(51%,#8b8f91), color-stop(100%,#94989a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #bbbdbf 0%,#a3a6a8 50%,#8b8f91 51%,#94989a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #bbbdbf 0%,#a3a6a8 50%,#8b8f91 51%,#94989a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #bbbdbf 0%,#a3a6a8 50%,#8b8f91 51%,#94989a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #bbbdbf 0%,#a3a6a8 50%,#8b8f91 51%,#94989a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbdbf', endColorstr='#94989a',GradientType=0 ); /* IE6-9 */
+	color: #ffffff;
+}
+
+/* fix ie6 small issue */
+* html #nav ul {margin:0 0 0 -2px;}
+* html #nav ul li a {position:relative;}
