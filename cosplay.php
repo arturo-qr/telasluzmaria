@@ -3,6 +3,9 @@
 <body>
 	<?php include 'header.php';?>
 	<div id="pagecontainer">
+		<?php
+			include 'zipper.php';
+		?>
 		<div class="division"></div>
 		<div class="clear"></div>
 		<div class="division2"></div>

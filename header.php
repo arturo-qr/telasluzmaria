@@ -10,23 +10,23 @@
 			<ul id="nav">
 				<li><a href="#" onclick="return false;" class="btns btn-quienes"><span class="btnSpan">Quienes somos</span></a>
 					<ul class="subQuienes">
-						<li><a href="#">MISI&Oacute;N</a></li>
-						<li><a href="#">SERVICIOS</a></li>
+						<li><a href="cosplay.php" class="transition">MISI&Oacute;N</a></li>
+						<li><a href="zipper.php" class="transition">SERVICIOS</a></li>
 					</ul> 
 				</li>
 				<li class="separation"></li>
 				<li><a href="#" onclick="return false;" class="btns btn-galeria"><span class="btnSpan">Galeria de Alta Costura</span></a>
 					<ul class="subGaleria">
-						<li><a href="cosplay.php">COSPLAY</a></li>
-						<li><a href="#">BLUSAS</a></li>
-						<li><a href="#">ROPA FORMAL</a></li>
-						<li><a href="#">TRABAJOS ESPECIALES</a></li>
+						<li><a href="cosplay.php" class="transition" >COSPLAY</a></li>
+						<li><a href="#" class="transition">BLUSAS</a></li>
+						<li><a href="#" class="transition">ROPA FORMAL</a></li>
+						<li><a href="#" class="transition">TRABAJOS ESPECIALES</a></li>
 					</ul> 	
 				</li>
 				<li class="separation"></li>
 				<li><a href="#" onclick="return false;" class="btns btn-contacto"><span class="btnSpan">Contacto</span></a>
 					<ul class="subContacto">
-						<li><a href="#">MAPA</a></li>
+						<li><a href="#" class="transition">MAPA</a></li>
 					</ul> 			
 				</li>
 			</ul>
