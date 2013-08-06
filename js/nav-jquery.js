@@ -6,12 +6,12 @@ $(document).ready(function(){
 		$('#nav li').hover(
 			function () {
 				//show its submenu hoverover
-				$('ul', this).stop(true, true).slideDown('slow');
+				$('ul', this).stop(true, true).slideDown('medium');
 			}, 
 			function () {
 				//hide its submenu hoverout
 				$('ul',this).delay(250)
-							.slideUp('medium');
+							.slideUp('fast');
 			}
 		);
 }); 

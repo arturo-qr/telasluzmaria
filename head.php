@@ -6,5 +6,5 @@
 	<script type="text/JavaScript" src="js/jquery-1.10.2.min.js"></script>
 	<script type="text/JavaScript" src="js/nav-jquery.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
-	<title>Telas Luz Maria</title>
+	<script type="text/javascript" src="js/extraJS.js"></script>
 </head>

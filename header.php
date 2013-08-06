@@ -8,25 +8,26 @@
 		</div>
 		<div id="navbar" class="shadowDark">
 			<ul id="nav">
-				<li><a href="#" onclick="return false;" class="btns btn-quienes"><span class="btnSpan">Quienes somos</span></a>
+				<li><a href="index.php" class="btns btn-quienes"><span class="btnSpan">Quienes somos</span></a>
 					<ul class="subQuienes">
-						<li><a href="cosplay.php" class="transition">MISI&Oacute;N</a></li>
-						<li><a href="zipper.php" class="transition">SERVICIOS</a></li>
+						<li><a href="mision.php" class="transition">MISI&Oacute;N</a></li>
+						<li><a href="#" onClick="return false;" >SERVICIOS</a></li>
 					</ul> 
 				</li>
 				<li class="separation"></li>
-				<li><a href="#" onclick="return false;" class="btns btn-galeria"><span class="btnSpan">Galeria de Alta Costura</span></a>
+				<li><a href="vestidos.php"class="btns btn-galeria"><span class="btnSpan">Galeria de Alta Costura</span></a>
 					<ul class="subGaleria">
 						<li><a href="cosplay.php" class="transition" >COSPLAY</a></li>
-						<li><a href="#" class="transition">BLUSAS</a></li>
-						<li><a href="#" class="transition">ROPA FORMAL</a></li>
-						<li><a href="#" class="transition">TRABAJOS ESPECIALES</a></li>
+						<li><a href="vestidos.php" class="transition">VESTIDOS</a></li>
+						<li><a href="ropa-formal.php" class="transition">ROPA FORMAL</a></li>
+						<li><a href="blusas-faldas.php" class="transition">BLUSAS Y FALDAS</a></li>
+						<li><a href="trabajos-especiales.php" class="transition">TRABAJOS ESPECIALES</a></li>
 					</ul> 	
 				</li>
 				<li class="separation"></li>
 				<li><a href="#" onclick="return false;" class="btns btn-contacto"><span class="btnSpan">Contacto</span></a>
 					<ul class="subContacto">
-						<li><a href="#" class="transition">MAPA</a></li>
+						<li><a href="#" onclick="return false;" >MAPA</a></li>
 					</ul> 			
 				</li>
 			</ul>
